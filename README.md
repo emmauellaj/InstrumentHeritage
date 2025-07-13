@@ -1,57 +1,18 @@
-# InstrumentHeritage: Musical Instrument Authentication and Registry Platform
+# Intellectual Property Registry
 
-InstrumentHeritage is a decentralized instrument registry built on blockchain technology that enables musicians and collectors to authenticate, register, and track historical and valuable musical instruments.
-
-## Overview
-
-InstrumentHeritage creates a trusted platform for musicians and instrument enthusiasts to document and preserve musical heritage. The platform allows collectors to register instruments with verifiable details like crafted year and playability status, establishing provenance and authenticity for valuable musical instruments.
+A blockchain-based system for filing and managing intellectual property applications. This smart contract enables inventors to file patent applications while providing examination and approval through certified patent examiners.
 
 ## Features
 
-- Register musical instruments with detailed information (name, craftsmanship, type, playability)
-- Document crafted year for accurate dating and historical significance
-- Manage collection status for instrument inventory
-- Browse instruments by type, playability level, era, or musician
-- Transparent ownership tracking and musical provenance
+- IP application filing with detailed technical descriptions
+- Patent examination and approval by certified examiners
+- Inventor portfolio management
+- Intellectual property protection tracking
 
-## Contract Functions
+## Usage
 
-### Public Functions
+Deploy the contract to start filing and examining intellectual property applications.
 
-- `register-instrument`: Register a musical instrument in the heritage registry
-- `donate-instrument`: Mark an instrument as donated to institution
-- `get-instrument`: Retrieve details about a specific musical instrument
-- `get-musician`: Get the musician who registered a specific instrument
+## License
 
-### Constants
-
-- Minimum crafted year validation (1600 - Baroque era)
-- Validation for instrument types and playability levels
-- Error codes for various failure scenarios
-
-## Data Structure
-
-Each instrument entry contains:
-- Musician information (principal)
-- Instrument name (string)
-- Craftsmanship and maker documentation (string)
-- Instrument type classification
-- Playability assessment
-- Collection status
-- Crafted year
-
-## Getting Started
-
-To interact with the InstrumentHeritage registry:
-
-1. Deploy the contract to a Stacks blockchain node
-2. Call the contract functions using a compatible wallet or Clarity development environment
-3. Register your musical instruments to establish provenance
-4. Browse registered instruments from other musicians and collectors
-
-## Future Development
-
-- Implement instrument trading functionality
-- Add luthier authentication system
-- Create musical instrument valuation and appreciation tracking
-- Develop virtual museum showcases and performance documentation
+MIT
